@@ -13,6 +13,31 @@ section{
     
 }
 
+.nav {
+    background-color: black;
+    border: none;
+    box-shadow: 10px;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.nav-tabs > li > a {
+    color: white;
+    border-radius: 0;
+    font-size: 18px;
+    padding: 15px 20px;
+}
+.nav-tabs > li > a:hover {
+    background-color: grey;
+    color: white;
+    border: none;
+    transition: 0.4s;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
 #about{
     background: url(./images/about-bg.jpg) no-repeat;
     background-size: cover;
