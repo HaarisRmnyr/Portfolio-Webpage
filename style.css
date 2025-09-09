@@ -1,0 +1,53 @@
+section{
+    padding: 100px 0;
+}
+
+#home{
+    background: url(./images/home-bg.jpg) no-repeat;
+    background-size: cover;
+    background-color: black;
+    background-position: center;
+
+    text-decoration-color: white;
+    color: white;
+    
+}
+
+#about{
+    background: url(./images/about-bg.jpg) no-repeat;
+    background-size: cover;
+    background-color: cadetblue;
+    background-position: center;
+
+    text-align:center;
+
+
+}
+
+.textbox{
+    border: solid black;
+    padding: 20px;
+    margin: auto;
+    border-radius: 8px;
+    text-align: center;
+
+
+
+}
+
+#projects{
+    background: url(./images/projects-bg.jpg) no-repeat;
+    background-size: cover;
+    background-color: black;
+    background-position: center;
+
+    text-decoration-color: white;
+    color: white;
+}
+
+#contact{
+    background: url(./images/contact-bg.jpg) no-repeat;
+    background-size: cover;
+    background-color: cadetblue;
+    background-position: center;
+}
