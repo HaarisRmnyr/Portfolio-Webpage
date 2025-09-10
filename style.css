@@ -10,7 +10,7 @@ section{
 
     text-decoration-color: white;
     color: white;
-    height: 100vh;
+    height: 100%;
     
 }
 .home-header{
@@ -62,7 +62,7 @@ html{
     background-position: center;
     color: white;
 
-    height: 100vh;
+    height: 100%;
     text-align: center;
 
 }
