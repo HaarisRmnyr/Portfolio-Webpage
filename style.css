@@ -2,26 +2,69 @@ section{
     padding: 100px 0;
 }
 
+
+body{
+    background: url(./images/background.jpg) no-repeat;
+    background-color: #011428;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+
+    font-family:'Raleway', sans-serif;
+
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+
 #home{
     background: url(./images/home-bg.jpg) no-repeat;
-    background-size: cover;
-    background-color: rgb(40, 40, 40);
-    background-position: center;
-
-    text-decoration-color: white;
     color: white;
     height: 100%;
-    
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
 }
+
+
 .home-header{
     font-size: 50px;
     margin-bottom: 10px;
+    padding-left: 40px;
 }
 
-.home-text{
-    padding: 30px;
-    font-size: 20px;
-    margin-top: 10px;
+.typed-text{
+    padding-left:100px;
+}
+
+.welcome-message{
+    padding-left: 40%;
+    font-size: 40px;
+}
+
+
+.btn-lg {
+    width: 10%;
+    height: 2%;
+    background-color: #011428;
+    border: none !important;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 3);
+    padding: 10px 20px;
+    font-size: 12px;
+}
+.btn-lg:hover {
+    background-color: #017abc;
+    color: white;
+    border: none;
+    transition: 0.4s;
 }
 
 .container-fluid {
@@ -30,72 +73,64 @@ section{
 }
 
 .nav {
-    background-color: grey;
+    background-image: linear-gradient(to right, #011428, #017abc);
     border: none !important;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 3);
     border-radius: 0;
     margin-bottom: 0;
 }
 
+.nav-tabs{
+    display: flex;
+    justify-content: flex-end;
+}
+
 .nav-tabs > li > a {
+    background: none;
     color: white;
-    border:none !important;
+    border:none;
     border-radius: 0;
     font-size: 18px;
-    padding: 15px 20px;
+    padding: 8px 20px;
 }
 .nav-tabs > li > a:hover {
-    background-color: lightgray;
-    color: white;
-    border: none !important;
+    background: none;
+    color: #331a33;
+    border: none;
     transition: 0.4s;
 }
 
 html{
     scroll-behavior: smooth;
+    
 }
 
 #about{
     background: url(./images/about-bg.jpg) no-repeat;
     background-size: cover;
-    background-color:rgb(80, 80, 80);
     background-position: center;
     color: white;
-
-    height: 100%;
     text-align: center;
-
 }
 
+.about-header{
+    font-size: 50px;
+    margin-bottom: 10px;
 
-.about-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* centers horizontally */
-  text-align: center;
-  width: 100%;
 }
-
-.about-header {
-  font-size: 50px;
-  margin-bottom: 40px;
-}
-
-.textbox {
-  padding: 20px;
-  max-width: 600px;
-  width: 80%;
-  font-size: 20px;
-  margin-top: 20px;
+.about-text {
+    padding-left: 50px;   
+    text-align: left;
+    padding: 20px;
+    font-size: 18px;
+    max-width: 60%;
 }
 
 #projects{
     background: url(./images/projects-bg.jpg) no-repeat;
     background-size: cover;
-    background-color: rgb(40, 40, 40);
     background-position: center;
 
-    text-decoration-color: white;
     color: white;
     text-align: center;
 }
@@ -109,10 +144,53 @@ html{
     font-size: 18px;
 }
 
+.thumbnail {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border: none; /* Remove border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 5); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.thumbnail:hover {
+    transform: translateY(-10px); /* Slightly lift the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
 #contact{
     background: url(./images/contact-bg.jpg) no-repeat;
     background-size: cover;
-    background-color: rgb(80, 80, 80);
     background-position: center;
     color: white;
 }
+
+.contact-header{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.github-icon{
+    padding-right: 10px;
+    font-size: 18px;
+
+}
+
+.github-icon:hover {
+    color: #331a33;
+}
+
+.email-icon{
+    padding-right: 10px;
+    font-size: 18px;
+
+}
+
+.email-icon:hover {
+    color: #331a33;
+    transition: 0.4s;
+    transform : translateY(-5px);
+}
+
+
+
+

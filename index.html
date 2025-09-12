@@ -21,6 +21,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
 <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="style.css"> 
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -35,33 +36,41 @@
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <button class="btn btn-lg"><a href="" target="_blank" style="color: white;" style="font-family: 'Raleway';">Download Resume</a></button>
             </ul>
         </div>
     </nav>
 
+    
     <!--Home Section-->
         <section id="home" class="container-fluid text-center">
         <dev class="home-header">
         <p>Haaris Rahmanyar</p></dev>
         <h3><span class="typed-text"></span><span class="cursor">&nbsp;</span></h3>
-        <img src="https://avatars.githubusercontent.com/u/70719536?v=4" class="img-circle" alt="Profile Picture" width="200" height="200">
-        <dev class="home-text">
-        <p>Cybersecurity Enthusiast | Aspiring Web Developer</p></dev>
+        <dev class="welcome-message"><p>Welcome to my portfolio Webpage!<br> Here I'll showcase what I've been working on.</p><img src="https://avatars.githubusercontent.com/u/70719536?v=4" class="img-circle" alt="Profile Picture" width="200" height="200"></dev>
+        <script>
+            var typed = new Typed('.typed-text', {
+                strings: ["Cybersecurity Enthusiast", "Aspiring Web Developer"],
+                typeSpeed: 50,
+                backSpeed: 50,
+                loop: true
+            });
+        </script>
+
+        
 
     </section>
 
         <!--About Me Section-->
         <section id="about" class="container-fluid">
-            <div class="about-wrapper">
-                <div class="about-header">
-                <p>About Me</p>
-                </div>
-                <div class="textbox">
-                <p>I’m an Undergraduate Student Majoring in Software Engineering at York University</p>
-                <p>I have a strong passion for Cybersecurity and Web Development</p>
-                <p>I'm eager to apply my skills and knowledge in real-world scenarios, and I'm always looking for opportunities to learn and grow in these fields.</p>
-                </div>
-            </div>
+            <dev class="about-header">
+            <p>About Me</p></dev>
+            <dev class ="about-text">
+            <p>Hello! I'm Haaris Rahmanyar,<br> a dedicated cybersecurity enthusiast and aspiring web developer. <br>
+             I recently graduated from the University of Toronto with a Bachelor of Science in Computer Science,<br>
+             where I honed my skills in programming, network security, and ethical hacking.<br>  My passion lies in protecting digital assets and creating secure web applications. 
+             I'm eager to apply my knowledge and skills in real-world scenarios,<br> continuously learning and growing in the ever-evolving field of technology.</p>
+
             </section>
 
         <!--Projects Section-->
@@ -115,18 +124,30 @@
 
         <!--Contact Section-->
         <section id="contact" class="container-fluid text-center">
-        <h2>Contact</h2>
+        <dev class="contact-header">
+        <p>Contact</p></dev>
         <p>Let’s connect!</p>
 
+        <dev class="github-icon">
         <!--GitHub-->
         <a href="https://github.com/HaarisRmnyr" target="_blank">
         <i class="fab fa-github fa-3x"></i>
         </a>
+        </dev>
 
         <!--Email-->
+        <dev class="email-icon">
         <a href="mailto:haarisrahmanyar@gmail.com" target="_blank">
         <i class="fas fa-envelope fa-3x"></i>
         </a>
+        </dev>
+
+        <!--LinkedIn-->
+        <dev class="linkedin-icon">
+        <a href="www.linkedin.com/in/haaris-rahmanyar-4b21a9382" target="_blank">
+        <i class="fab fa-linkedin fa-3x"></i>
+        </a>
+        </dev>
 
         </section>
 
