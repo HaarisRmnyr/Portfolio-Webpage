@@ -142,6 +142,7 @@ html{
     background: url(./images/about-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    height: 100%;
     color: white;
     text-align: center;
 }
@@ -149,14 +150,23 @@ html{
 .about-header{
     font-size: 50px;
     margin-bottom: 10px;
+    
 
 }
 .about-text {
-    padding-left: 50px;   
-    text-align: left;
-    padding: 20px;
-    font-size: 18px;
-    max-width: 60%;
+    position: absolute;
+    top: 135%;
+    left: 60px;
+    font-size: 20px;
+    max-width: 40%;
+    
+    
+}
+
+.school-logo{
+    position: absolute;
+    top: 130%;
+    right: 120px;
 }
 
 #projects{
